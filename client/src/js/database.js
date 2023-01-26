@@ -1,4 +1,3 @@
-import { request } from "express";
 import { openDB } from "idb";
 
 const initdb = async () =>
@@ -32,7 +31,10 @@ export const getDb = async () => {
   const store = tx.objectStore("jate");
   const request = store.getAll();
   const result = await request;
-  console.log(result);
+  result
+    ? console.log("🚀 - data retrieved from the database", result.value)
+    : console.log("🚀 - data not found in the database");
+  return result?.value;
 };
 
 initdb();
