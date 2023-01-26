@@ -24,7 +24,7 @@ To run this application in the browser the user will need to clone the code, and
 ## Usage
 
 This project can be used to show how PWAs are developed and structured, the application itself can be used to store data that the user might need, such as notes which will be formatted as code, with each element having its corresponding color. If the user wishes to install the application for offline use the `Install!` button can be pressed on the top left of the page which will give the user the option to do so.
-To check out the deployed version of the text editor you may click the following link:
+To check out the deployed version of the text editor you may click the following link: [https://renatos-text-editor.herokuapp.com/](https://renatos-text-editor.herokuapp.com/)
 
 ## License
 
